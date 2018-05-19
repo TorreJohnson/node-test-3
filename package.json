@@ -1,0 +1,9 @@
+{
+  "name": "nodetest3",
+  "version": "1.0.0",
+  "description": "Test build of a mern stack app",
+  "main": "index.js",
+  "repository": "https://github.com/TorreJohnson/node-test-3",
+  "author": "Torre Johnson",
+  "license": "MIT"
+}
