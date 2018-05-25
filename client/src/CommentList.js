@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Comment from "./Comment";
+import { Comment } from "./Comment";
 
 export const CommentList = props => {
-	const commentNodes = props.data.map(comment => (
+	const CommentNodes = props.data.map(comment => (
 		<Comment author={comment.author} key={comment._id} id={comment._id}>
 			{comment.text}
 		</Comment>

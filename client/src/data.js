@@ -1,4 +1,4 @@
-export const data = [
+export const DATA = [
 	{
 		_id: 1,
 		author: "Bryan",
