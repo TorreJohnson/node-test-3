@@ -23,3 +23,5 @@ router.get("/", (req, res) => {
 app.use("/api", router);
 
 app.listen(API_PORT, () => console.log(`Listening on port ${API_PORT}`));
+
+module.exports = router;
