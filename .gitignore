@@ -1,3 +1,5 @@
+.gitignore
+
 node_modules/
 
-secrets.js
+./backend/secrets.js
